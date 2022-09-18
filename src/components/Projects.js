@@ -1,6 +1,9 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import ProjectCard from "./ProjectCard.js";
+import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 const Projects = () => {
@@ -50,7 +53,10 @@ const Projects = () => {
                             And the last one is my pure HTML, CSS, JS projects.
                         </p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                            <Nav variant="pills" defaultActiveKey="/home">
+                            <Nav variant="pills" 
+                                className="nav-pills mb-5 justify-content-center align-items-center" 
+                                id="pills-tab"
+                            >
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Tab One</Nav.Link>
                                 </Nav.Item>
@@ -69,7 +75,7 @@ const Projects = () => {
                                                 return (
                                                     <ProjectCard
                                                         key={index}
-                                                        {...projects} //Таким образом передали title, description, imgURL
+                                                        {...project} //Таким образом передали title, description, imgURL
                                                     />
                                                 )
                                             })
