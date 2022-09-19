@@ -20,7 +20,9 @@ const Contact = () => {
             ...formDetails,
             [category]: value
         })
-    }
+    };
+
+    const handleSubmit = () => {};
 
     render (
         <section className="contact" id="connect">
@@ -31,7 +33,7 @@ const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Get In Touch</h2>
-                        <form>
+                        <form onSubmit={handleSubmit}>
                             <Row>
                                 <Col md={6} className="px=1">
                                     <input 
