@@ -15,7 +15,9 @@ const Footer = () => {
                             <a href=""><img src={navIcon2} alt="icon"/></a>
                             <a href=""><img src={navIcon3} alt="icon"/></a>
                         </div>
-                        <p>Copy Right, 2022. All Right Reserved</p>
+                        <p>Copy Right, 2022. All Right Reserved<br></br>
+                            Russia, Voronezh
+                        </p>
                     </Col>
                 </Row>
             </Container>
