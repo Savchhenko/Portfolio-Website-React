@@ -479,6 +479,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .footer-content {
   align-items: center;
+  padding-top: 35px;
   height: 100%;
 }
 .footer img {
@@ -490,9 +491,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   padding-top: 20px;
-}
-.social-icon {
-  margin-top: 30px;
 }
 
 .App {

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 
 const Banner = () => {
@@ -50,7 +49,7 @@ const Banner = () => {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi! I'm a `}<br></br><span className="wrap">{text}</span></h1>
                         <p>My name is Alexandra and I'm an inspiring Frontend developer. This year I got bachelor degree in computer science and ingeneering. Below you can find my web projects</p>
-                        <button onClick={() => console.log("Bunner's btn was clicked")}>Let's connect <ArrowRightCircle size={25}/></button>
+                        <button onClick={() => console.log("Bunner's btn was clicked")}>Let's connect</button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header"/>

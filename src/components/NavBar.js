@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useState, useEffect } from "react";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
@@ -57,25 +58,25 @@ const NavBar = () => {
                 >Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
-                <div className="social-icon">
-                <a href="#">
-                    <img src={navIcon1} alt=""></img>
-                </a>
-                <a href="#">
-                    <img src={navIcon2} alt=""></img>
-                </a>
-                <a href="#">
-                    <img src={navIcon3} alt=""></img>
-                </a>
-                </div>
                 <button
-                className="vvd"
-                onClick={() => {
-                    console.log("Contact me");
-                }}
+                    className="vvd"
+                    onClick={() => {
+                        console.log("Contact me");
+                    }}
                 >
-                <span>Let's connect</span>
+                    <span>Let's connect <ArrowRightCircle size={25}/></span>
                 </button>
+                <div className="social-icon">
+                    <a href="#">
+                        <img src={navIcon1} alt=""></img>
+                    </a>
+                    <a href="#">
+                        <img src={navIcon2} alt=""></img>
+                    </a>
+                    <a href="#">
+                        <img src={navIcon3} alt=""></img>
+                    </a>
+                </div>
             </span>
             </Navbar.Collapse>
         </Container>
