@@ -3,10 +3,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import { useState, useEffect } from "react";
-import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import mailIcon from "../assets/img/mail.svg";
+import telegramIcon from "../assets/img/telegram.svg";
+import githubIcon from "../assets/img/github-icon.svg";
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState("home");
@@ -55,21 +54,16 @@ const NavBar = () => {
                 >Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
-                
-                    <span className="vvd">Let's connect <ArrowRightCircle size={25}/></span>
-                
-                {/* <button className="vvd">
-                    <span>Let's connect <ArrowRightCircle size={25}/></span>
-                </button> */}
+                <span className="vvd">Let's connect <ArrowRightCircle size={25}/></span>               
                 <div className="social-icon">
-                    <a href="#">
-                        <img src={navIcon1} alt=""></img>
+                    <a href="mailto:svchhh@yandex.ru">
+                        <img src={mailIcon} alt="E-mail Icon"></img>
                     </a>
-                    <a href="#">
-                        <img src={navIcon2} alt=""></img>
+                    <a href="https://t.me/svchhh" target="_blank">
+                        <img src={telegramIcon} alt="Telegram Icon"></img>
                     </a>
-                    <a href="#">
-                        <img src={navIcon3} alt=""></img>
+                    <a href="https://github.com/Savchhenko" target="_blank">
+                        <img src={githubIcon} alt=""></img>
                     </a>
                 </div>
             </span>
