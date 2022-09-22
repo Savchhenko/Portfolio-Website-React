@@ -461,6 +461,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-buttons a {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px 30px;
+}
+.card-buttons a img {
+  margin-left: 6px;
+}
 
 /* Footer */
 .footer {
