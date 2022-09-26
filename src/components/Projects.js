@@ -1,42 +1,57 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import ProjectCard from "./ProjectCard.js";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import reactQuizImg from "../assets/img/projectsImages/react-quiz.PNG";
+import coffeeShopImg from "../assets/img/projectsImages/coffee-shop.png";
+import spaceXImg from "../assets/img/projectsImages/spacex.png";
+import jsQuizImg from "../assets/img/projectsImages/simple-js-quiz.PNG";
+import raceJsImg from "../assets/img/projectsImages/race-js.PNG";
+import weatherAppImg from "../assets/img/projectsImages/weather-app.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 const Projects = () => {
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Coffee Shop Website",
+            description: "Full Responsive site using HTML, CSS (Flex & Grid), JavaScript, Bootstrap",
+            imgUrl: coffeeShopImg,
+            codeUrl: "https://github.com/Savchhenko/Coffee-Shop",
+            liveDemoUrl: "https://savchhenko.github.io/Coffee-Shop/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
+            title: "Weather App - TypeScript SPA",
+            description: "TypeScript, TS modules, Fetch request, XHR request, third-party API, building by Webpack",
+            imgUrl: weatherAppImg,
+            codeUrl: "https://github.com/Savchhenko/Weather-App-TS",
+            liveDemoUrl: "https://savchhenko.github.io/Weather-App-TS/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "SpaceX Landing",
+            description: "HTML, CSS, Parallax Effect, Video Animation",
+            imgUrl: spaceXImg,
+            codeUrl: "https://github.com/Savchhenko/SpaceX",
+            liveDemoUrl: "https://savchhenko.github.io/SpaceX/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg1,
+            title: "Trivia Quiz",
+            description: "- React, Redux, MUI, React-Router, Axios, Custom Hooks",
+            imgUrl: reactQuizImg,
+            codeUrl: "https://github.com/Savchhenko/Quiz-React",
+            liveDemoUrl: "https://savchhenko.github.io/Quiz-React/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg2,
+            title: "Simple JS Quiz",
+            description: "Practice of dynamic HTML modification by JavaScript",
+            imgUrl: jsQuizImg,
+            codeUrl: "https://github.com/Savchhenko/Simple-JS-Quiz",
+            liveDemoUrl: "https://savchhenko.github.io/Simple-JS-Quiz/"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
-            imgUrl: projImg3,
+            title: "Car's Races",
+            description: "It's a simple Browser Game by pure JavaScript",
+            imgUrl: raceJsImg,
+            codeUrl: "https://github.com/Savchhenko/Simple-JS-Quiz",
+            liveDemoUrl: "https://savchhenko.github.io/Simple-JS-Quiz/"
         },
     ];
 
