@@ -34,11 +34,11 @@ const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>I know well HTML, CSS and JavaScript. <br></br>Also I have experience with TypeScript, React, Next.js, Angular, RxJS.</p>
+                            <p>I really like web development and want to develop my skills <br></br> and learn something new every day!</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Icon" />
-                                    <h5>Web Development</h5>
+                                    <h5>Web Development (Junior)</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Icon" />

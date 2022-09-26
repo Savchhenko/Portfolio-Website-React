@@ -37,7 +37,7 @@ const Projects = () => {
             description: "- React, Redux, MUI, React-Router, Axios, Custom Hooks",
             imgUrl: reactQuizImg,
             codeUrl: "https://github.com/Savchhenko/Quiz-React",
-            liveDemoUrl: "https://savchhenko.github.io/Quiz-React/"
+            liveDemoUrl: "#"
         },
         {
             title: "Simple JS Quiz",
