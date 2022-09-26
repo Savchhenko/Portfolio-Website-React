@@ -61,13 +61,16 @@ const Projects = () => {
                 <Row>
                     <Col>
                         <h2>My Projects</h2>
+                        <h4>Technologies I've had experience with: </h4> 
                         <p>
-                            Here you can see three tabs. The first tab displays my React
-                            projects. <br></br>
-                            The second tab displays my TypeScript projects. <br></br>
-                            And the last one is my pure HTML, CSS, JS projects.
+                            - HTML, CSS (Flex, Grid, SASS, LESS, PostCSS), JavaScript <br></br>
+                            - TypeScript, React, React Hooks, Redux, Next.js <br></br>
+                            - Angular, RxJS <br></br>
+                            - Webpack, Gulp <br></br>
+                            - Rest API, Fetch, XHR, Axios, Ajax <br></br>
+                            - Matirial UI, Ant Design, Bootstrap, Tailwind, Figma
                         </p>
-                        <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                        {/* <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" 
                                 className="nav-pills mb-5 justify-content-center align-items-center" 
                                 id="pills-tab"
@@ -100,7 +103,20 @@ const Projects = () => {
                                 <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
                                 <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
                             </Tab.Content>
-                        </Tab.Container>
+                        </Tab.Container> */}
+
+                        <Row>
+                            {
+                                projects.map((project, index) => {
+                                    return (
+                                        <ProjectCard
+                                            key={index}
+                                            {...project} //Таким образом передали title, description, imgURL
+                                        />
+                                    )
+                                })
+                            }
+                        </Row>
                     </Col>
                 </Row>
             </Container>
