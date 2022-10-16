@@ -329,8 +329,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
+  transform: rotate(180deg);
   top: 28%;
   position: absolute;
+  right: 0;
   bottom: 0;
   width: 40%;
   z-index: -4;
@@ -352,7 +354,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  margin: 14px auto 90px auto;
   text-align: center;
   width: 56%;
 }
