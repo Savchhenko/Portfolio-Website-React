@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeliting, setIsDeliting] = useState(false);
-    const toRotate = ["Web developer", "JavaScript developer", "React developer"];
+    const toRotate = ["JavaScript разработчик", "Web разработчик", "React разработчик"];
     const [text, setText] = useState("");
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -46,11 +46,11 @@ const Banner = () => {
             <Container>
                 <Row className="align-item-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{`Hi! I'm a `}<br></br><span className="wrap">{text}</span></h1>
-                        <p>My name is Alexandra and I'm an inspiring Frontend developer. 
-                            This year I got bachelor degree in computer science and ingeneering. 
-                            Below you can find my web projects
+                        <span className="tagline">Приветствую на моём сайте-портфолио!</span>
+                        <h1>{`Я - `}<br></br><span className="wrap">{text}</span></h1>
+                        <p>Меня зовут Александра и я - начинающий Frontend разработчик.
+                            Образование - бакалавр по направлению "Информатика и вычислительная техника".
+                            Ниже вы можете найти мои веб проекты.
                         </p>
                     </Col>
                     <Col xs={12} md={6} xl={5}>

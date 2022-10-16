@@ -12,8 +12,8 @@ const ProjectCard = ({ title, description, imgUrl, codeUrl, liveDemoUrl }) => {
                 </div>
             </div>
             <div className="card-buttons">
-                <a className="btn btn-primary" href={codeUrl} target="_blank">Code <img src={githubIcon} alt="GitHub Icon" /></a>
-                <a className="btn btn-primary" href={liveDemoUrl} target="_blank">Live Demo</a>
+                <a className="btn btn-primary" href={codeUrl} target="_blank">Код <img src={githubIcon} alt="GitHub Icon" /></a>
+                <a className="btn btn-primary" href={liveDemoUrl} target="_blank">Сайт</a>
             </div>
         </Col>
     );

@@ -9,7 +9,6 @@ import colorSharp from "../assets/img/color-sharp.png";
 const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },
@@ -33,28 +32,28 @@ const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2>Skills</h2>
-                            <p>I really like web development and want to develop my skills <br></br> and learn something new every day!</p>
+                            <h2>Навыки</h2>
+                            <p>Я влюблена во Frontend, хочу улучшать свои навыки, <br></br> поэтому каждый день изучаю что-то новое!</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Icon" />
-                                    <h5>Web Development (Junior)</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter2} alt="Icon" />
-                                    <h5>High self-learning ability</h5>
+                                    <h5>Frontend разработка (Junior)</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Icon" />
-                                    <h5>Work in a team</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter1} alt="Icon" />
-                                    <h5>Logical thinking</h5>
+                                    <h5>Самообучаемость</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Icon" />
-                                    <h5>English B2</h5>
+                                    <h5>Работа в команде</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter1} alt="Icon" />
+                                    <h5>Логическое мышление</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter2} alt="Icon" />
+                                    <h5>Английский (B2)</h5>
                                 </div>
                             </Carousel>
                         </div>

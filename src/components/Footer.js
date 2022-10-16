@@ -20,7 +20,7 @@ const Footer = () => {
                                 <img src={githubIcon} alt="GitHub Icon"></img>
                             </a>
                         </div>
-                        <p>Russia, Voronezh, 2022</p>
+                        <p>Россия, Воронеж / Санкт-Петербург, 2022</p>
                     </Col>
                 </Row>
             </Container>

@@ -12,43 +12,43 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 const Projects = () => {
     const projects = [
         {
-            title: "Coffee Shop Website",
-            description: "Full Responsive site using HTML, CSS (Flex & Grid), JavaScript, Bootstrap",
+            title: "Вебсайт кофейного магазина",
+            description: "Полностью адаптивный сайт, написанный на HTML, CSS (Flex & Grid), JavaScript, Bootstrap",
             imgUrl: coffeeShopImg,
             codeUrl: "https://github.com/Savchhenko/Coffee-Shop",
             liveDemoUrl: "https://savchhenko.github.io/Coffee-Shop/"
         },
         {
-            title: "Weather App - TypeScript SPA",
-            description: "TypeScript, TS modules, Fetch request, XHR request, third-party API, building by Webpack",
+            title: "Приложение погоды - TypeScript SPA",
+            description: "TypeScript, TS modules, Fetch request, XHR request, сторонее API, сборка с использованием Webpack",
             imgUrl: weatherAppImg,
             codeUrl: "https://github.com/Savchhenko/Weather-App-TS",
             liveDemoUrl: "https://savchhenko.github.io/Weather-App-TS/"
         },
         {
-            title: "SpaceX Landing",
-            description: "HTML, CSS, Parallax Effect, Video Animation",
+            title: "Лендинг SpaceX",
+            description: "HTML, CSS, Эффект параллакса, Видео анимация",
             imgUrl: spaceXImg,
             codeUrl: "https://github.com/Savchhenko/SpaceX",
             liveDemoUrl: "https://savchhenko.github.io/SpaceX/"
         },
         {
-            title: "Trivia Quiz",
+            title: "Trivia Квиз",
             description: "- React, Redux, MUI, React-Router, Axios, Custom Hooks",
             imgUrl: reactQuizImg,
             codeUrl: "https://github.com/Savchhenko/Quiz-React",
             liveDemoUrl: "#"
         },
         {
-            title: "Simple JS Quiz",
-            description: "Practice of dynamic HTML modification by JavaScript",
+            title: "Небольшой квиз на JS",
+            description: "Практика динамического изменения HTML через JavaScript",
             imgUrl: jsQuizImg,
             codeUrl: "https://github.com/Savchhenko/Simple-JS-Quiz",
             liveDemoUrl: "https://savchhenko.github.io/Simple-JS-Quiz/"
         },
         {
-            title: "Car's Races",
-            description: "It's a simple Browser Game by pure JavaScript",
+            title: "Гонки",
+            description: "Простая браузерная игра на нативном JavaScript",
             imgUrl: raceJsImg,
             codeUrl: "https://github.com/Savchhenko/Simple-JS-Quiz",
             liveDemoUrl: "https://savchhenko.github.io/Simple-JS-Quiz/"
@@ -60,11 +60,11 @@ const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2>My Projects</h2>
-                        <h4>Technologies I've had experience with: </h4> 
+                        <h2>Мои проекты</h2>
+                        <h4>Технологии, с которыми я работала: </h4> 
                         <p>
                             - HTML, CSS (Flex, Grid, SASS, LESS, PostCSS), JavaScript <br></br>
-                            - TypeScript, React, React Hooks, Redux, Next.js <br></br>
+                            - TypeScript, React, React Hooks, Context API, Redux, Next.js <br></br>
                             - Angular, RxJS <br></br>
                             - Webpack, Gulp <br></br>
                             - Rest API, Fetch, XHR, Axios, Ajax <br></br>
@@ -111,7 +111,7 @@ const Projects = () => {
                                     return (
                                         <ProjectCard
                                             key={index}
-                                            {...project} //Таким образом передали title, description, imgURL
+                                            {...project} //Таким образом передаём title, description, imgURL
                                         />
                                     )
                                 })

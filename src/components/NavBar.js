@@ -41,20 +41,20 @@ const NavBar = () => {
                     href="#home" 
                     className={activeLink === "home" ? "active navbar-link" : "navbar-link"} 
                     onClick={() => onUpdateActiveLink("home")}  
-                >Home</Nav.Link>
+                >Главная</Nav.Link>
                 <Nav.Link 
                     href="#skills" 
                     className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} 
                     onClick={() => onUpdateActiveLink("skills")}
-                >Skills</Nav.Link>
+                >Навыки</Nav.Link>
                 <Nav.Link 
                     href="#projects" 
                     className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} 
                     onClick={() => onUpdateActiveLink("projects")}
-                >Projects</Nav.Link>
+                >Проекты</Nav.Link>
             </Nav>
             <span className="navbar-text">
-                <span className="vvd">Let's connect <ArrowRightCircle size={25}/></span>               
+                <span className="vvd">Связаться со мной <ArrowRightCircle size={25}/></span>               
                 <div className="social-icon">
                     <a href="mailto:svchhh@yandex.ru">
                         <img src={mailIcon} alt="E-mail Icon"></img>
