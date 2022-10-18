@@ -6,6 +6,9 @@ import coffeeShopImg from "../assets/img/projectsImages/coffee-shop.png";
 import spaceXImg from "../assets/img/projectsImages/spacex.png";
 import jsQuizImg from "../assets/img/projectsImages/simple-js-quiz.PNG";
 import raceJsImg from "../assets/img/projectsImages/race-js.PNG";
+import pikaduImg from "../assets/img/projectsImages/pikadu.PNG";
+import cliningImg from "../assets/img/projectsImages/clining-service.PNG";
+import distanceImg from "../assets/img/projectsImages/distance.PNG";
 import weatherAppImg from "../assets/img/projectsImages/weather-app.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
@@ -52,6 +55,27 @@ const Projects = () => {
             imgUrl: raceJsImg,
             codeUrl: "https://github.com/Savchhenko/Simple-JS-Quiz",
             liveDemoUrl: "https://savchhenko.github.io/Simple-JS-Quiz/"
+        },
+        {
+            title: "Портал Pikadu",
+            description: "Частичная копия портала Pikabu на JS с простой авторизацией через Firebase и возможностью добавлять посты",
+            imgUrl: pikaduImg,
+            codeUrl: "https://github.com/Savchhenko/Web-portal",
+            liveDemoUrl: "https://savchhenko.github.io/Web-portal/"
+        },
+        {
+            title: "Сайт клининговой компании",
+            description: "Многостраничная форма с вопросами на нативном JavaScipt",
+            imgUrl: cliningImg,
+            codeUrl: "https://github.com/Savchhenko/AdvertisingQuiz",
+            liveDemoUrl: "https://savchhenko.github.io/AdvertisingQuiz/"
+        },
+        {
+            title: "Лэндинг социальной сети",
+            description: "Адаптивный лэндинг  с большим количеством блоков и элементов",
+            imgUrl: distanceImg,
+            codeUrl: "https://github.com/Savchhenko/Distance",
+            liveDemoUrl: "https://savchhenko.github.io/Distance/"
         },
     ];
 
