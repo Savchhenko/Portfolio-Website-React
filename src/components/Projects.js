@@ -23,7 +23,7 @@ const Projects = () => {
         },
         {
             title: "Приложение погоды - TypeScript SPA",
-            description: "TypeScript, TS modules, Fetch request, XHR request, сторонее API, сборка с использованием Webpack",
+            description: "TypeScript, TS modules, Fetch request, XHR request, стороннее API, сборка с использованием Webpack",
             imgUrl: weatherAppImg,
             codeUrl: "https://github.com/Savchhenko/Weather-App-TS",
             liveDemoUrl: "https://savchhenko.github.io/Weather-App-TS/"
@@ -65,7 +65,7 @@ const Projects = () => {
         },
         {
             title: "Сайт клининговой компании",
-            description: "Многостраничная форма с вопросами на нативном JavaScipt",
+            description: "Многостраничная форма с вопросами на нативном JavaScript",
             imgUrl: cliningImg,
             codeUrl: "https://github.com/Savchhenko/AdvertisingQuiz",
             liveDemoUrl: "https://savchhenko.github.io/AdvertisingQuiz/"
